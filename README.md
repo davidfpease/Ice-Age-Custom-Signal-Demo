@@ -4,6 +4,7 @@ This repository contains the companion code for the Salesloft custom [Signals Im
 
 - clone the repo to a local folder
 - register for an [NGROK](https://dashboard.ngrok.com/signup?) account and a [MongoDb](https://account.mongodb.com/account/register) account if needed
+- set your Node version to 16.#.# (required for the MongoDb module to function)
 - run `NPM install`
 - generate a .env and populate values with your own Drift and Salesloft keys (see the .env-sample file for an example)
 - run `NGROK http 3000` in a separate terminal
