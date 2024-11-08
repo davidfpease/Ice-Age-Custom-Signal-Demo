@@ -54,6 +54,9 @@ module.exports = {
 }
 
 const isvalid = (token) => {
+  if (!token) {
+    return false;
+  }
 
   let now = Math.floor(Date.now() / 1000); // Date.now() returns milliseconds
   const tokenCreationTime = token.created_at;
